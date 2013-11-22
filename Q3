@@ -1,0 +1,16 @@
+CONTEXT AWARE COMPUTING(EXAMPLE):-
+
+Satnav(satellite navigation) is an example of context aware routing because  of the following reason:
+In a Satellite Navigation System (SatNav), the current location is the primary contextual parameter that is used to
+automatically adjust the visualization (e.g. map, arrows, directions…) to the user’s current location. However, looking
+at current commercial systems, much more context information is used and much of visualization has been changed.
+In addition to the current GPS position, contextual parameters may include the time of day, light conditions,
+the traffic situation on the calculated route or the user’s preferred places. Beyond the visualization and
+whether or not to switch on the backlight, the calculated route can be influenced by context, e.g. to avoid
+potentially busy streets at that time of day.
+It satisfies the basic requirement of a context aware system i.e  it is aware of its environment and the context
+of its use.
+
+Another  few  examples  of context aware computing  are:  
+ (a) A tablet computer switching the orientation of the screen 
+ (b) Maps orienting themselves with the user’s current  location/orientation.
