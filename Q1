@@ -1,0 +1,30 @@
+DALVIK VIRTUAL MACHINE INSTRUCTIONS:-
+  1)ADDITION
+SYNTAX- 'add'  'data type'   'result    variable',arg1,arg2
+example:  add- int d0,s0,s1
+   2)  MOVE
+ example:move-wide/from16 vAA, vBBBB
+ where
+	"move" is the base opcode, indicating the base operation (move a register's value).
+	"wide" is the name suffix, indicating that it operates on wide (64 bit) data.
+	"from16" is the opcode suffix, indicating a variant that has a 16-bit register reference as a source.
+	"vAA" is the destination register (implied by the operation; again, the rule is that destination arguments always come first), which must be in the range v0 – v255.
+	"vBBBB" is the source register, which must be in the range v0 – v65535.
+
+
+3)THROW
+ 
+Example : throw vx
+Throws an exception object. The reference of the exception object is     in vx.
+
+4) Remainder(rem)
+
+ Syntax:   rem-  data type arg1,arg2,arg3
+ example- rem- int vx,vy,vz
+ Calculates vy % vz and puts the result into vx.
+
+5)shl
+
+Syntax: shl- data type arg1,arg2,arg3.......
+example: shl-int vx, vy, vz
+Shift vy left by the positions specified by vz and store the result into    vx.
